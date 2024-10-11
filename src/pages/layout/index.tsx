@@ -1,12 +1,11 @@
 import { Outlet } from 'react-router-dom';
+import NavBar from '../../components/navbar';
 
 export default function Layout() {
     return (
         <div className='layout'>
-            <h1>ESTOU VIVO!!!</h1>
-            <div className='layout-background'>
-                <Outlet />
-            </div>
+            <NavBar />
+            <Outlet />
         </div>
     );
 };

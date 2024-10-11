@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    height: 120px;
+    width: 100%;
+    background-color: var(--white);
+}
+
+.navbar img {
+    border: 3px solid var(--white);
+    border-radius: 16px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar button {
+    height: 50px;
+    width: 50px;
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+.navbar button svg {
+    height: 100%;
+    width: 100%;
+}
